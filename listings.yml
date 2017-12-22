@@ -1,0 +1,60 @@
+- !ruby/object:Listing 
+  id: 1
+  address: "8181 Douglas, #210, Dallas, TX 75225"
+- !ruby/object:Listing 
+  id: 2
+  address: "2204 Worthington, Dallas, TX 75204"
+- !ruby/object:Listing 
+  id: 3
+  address: "4602 Rockaway Dr, Dallas, TX 75214"
+- !ruby/object:Listing 
+  id: 4
+  address: "2225 Canton, #123, Dallas, TX 75201"
+- !ruby/object:Listing 
+  id: 5
+  address: "2722 Mitchell St, Dallas, TX 75210"
+- !ruby/object:Listing 
+  id: 6
+  address: "4612 Gilbert Ave, Dallas, TX 75219"
+- !ruby/object:Listing 
+  id: 7
+  address: "3122 Lanoue Dr, Dallas, TX 75220"
+- !ruby/object:Listing 
+  id: 8
+  address: "4608 Gilbert Ave, Dallas, TX 75219"
+- !ruby/object:Listing 
+  id: 9
+  address: "3621 Turtle Creek, #3D, Dallas, TX 75219"
+- !ruby/object:Listing 
+  id: 10
+  address: "8417 Cadenza Ln, Dallas, TX 75228"
+- !ruby/object:Listing 
+  id: 11
+  address: "1502 Brentwood, Austin, TX 70000"
+- !ruby/object:Listing 
+  id: 12
+  address: "11927 Oakbrook, Austin, TX 78753"
+- !ruby/object:Listing 
+  id: 13
+  address: "6905 Tulane, Austin, TX 78723"
+- !ruby/object:Listing 
+  id: 14
+  address: "12108 Wycliff Lane, Austin, TX 78727"
+- !ruby/object:Listing 
+  id: 15
+  address: "103 5 Th, #103, Austin, TX 78701"
+- !ruby/object:Listing 
+  id: 16
+  address: "8217 Gutherie, Austin, TX 78750"
+- !ruby/object:Listing 
+  id: 17
+  address: "2833 University Club, Austin, TX 78732"
+- !ruby/object:Listing 
+  id: 18
+  address: "11101 Calle Verde Drive, Austin, TX 78759"
+- !ruby/object:Listing 
+  id: 19
+  address: "200 Lowell, Austin, TX 78733"
+- !ruby/object:Listing 
+  id: 20
+  address: "8500 Spring Valley, Austin, TX 787362"
