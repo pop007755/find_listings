@@ -7,7 +7,11 @@ class ListingsController < ApplicationController
 
 	def location_search
 		city = params[:city]
-		@listings = @resources.select{|r| r.address.include?(city)}
+		if city == 'All'
+			@listings = @resources.first(20)	
+		else
+			@listings = @resources.select{|r| r.address.include?(city)}.first(20)
+		end
 	end
 
 	# Because I don't have a database,
