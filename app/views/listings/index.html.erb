@@ -2,4 +2,9 @@
 	<table id="listings">
 		<%= render partial: 'layouts/listings_partial', locals: {listings: @listings}%>
 	</table>
+	<% ['Austin', 'Dallas'].each do |city|%>
+		<%= link_to(location_search_url(city), remote: true) do %>
+			<%= city %>
+		<% end %>
+	<% end %>
 </div>
