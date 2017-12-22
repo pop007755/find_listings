@@ -3,7 +3,7 @@
 		<%= render partial: 'layouts/listings_partial', locals: {listings: @listings}%>
 	</table>
 	<% ['Austin', 'Dallas'].each do |city|%>
-		<%= link_to(location_search_url(city), remote: true) do %>
+		<%= link_to(location_search_url(city), remote: true, class:'btn') do %>
 			<%= city %>
 		<% end %>
 	<% end %>
