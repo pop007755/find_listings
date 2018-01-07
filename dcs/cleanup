@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+persisted_volumes = %w[indeedass_packs indeedass_postgres]
+volumes = `docker volume ls -q`.split("\n")
+chunks = volumes.each_slice(8)
+
+threads = chunks.map.with_index do |volumes, i|
+  Thread.new(volumes, i) do |vols, idx|
+    print "Thread #{idx} will remove #{vols.size} volumes\n"
+    vols.each do |volume|
+      next if persisted_volumes.include?(volume)
+      `docker volume rm #{volume}`
+      print "Thread #{idx} removing volume: #{volume}\n"
+    end
+  end
+end
+
+threads.each(&:join)
